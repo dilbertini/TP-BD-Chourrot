@@ -35,6 +35,8 @@ namespace TP_BD_Chourrot
                 //MessageBox.Show(conn.State.ToString());
                 LB_Connect.Text = "Connection ouverte";
                 LB_Connect.ForeColor = Color.Blue;
+                Dlg_To_Form();
+                this.Close();
             }
             catch (Exception ex)
             {
@@ -43,6 +45,11 @@ namespace TP_BD_Chourrot
         }
 
         private void BTN_Cancel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Dlg_To_Form()
         {
 
         }

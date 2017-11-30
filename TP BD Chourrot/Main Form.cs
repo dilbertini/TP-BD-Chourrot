@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Oracle.ManagedDataAccess.Client;
 
 namespace TP_BD_Chourrot
 {
     public partial class Form1 : Form
     {
+        private OracleConnection conn;
         public Form1()
         {
             InitializeComponent();
